@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "cuvuc";
+	src: url("cuvuc.ttf");
+}
+
+body{
+	font-family: "cuvuc"
+}
+
+hr{
+	background-color: #000000;
+	border: 0 none;
+}
