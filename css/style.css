@@ -9,5 +9,10 @@ body{
 
 hr{
 	background-color: #000000;
-	border: 0 none;
+	border: none;
+	border-top: 2px double #000;
+}
+
+li{
+	list-style-type: "> ";
 }
