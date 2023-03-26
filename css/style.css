@@ -4,15 +4,33 @@
 }
 
 body{
-	font-family: "cuvuc"
+	font-family: "cuvuc";
+	background-color: #1F2329;
+}
+
+h1{
+	color: #D19A66;
+}
+
+h2{
+	color: #98C379;
 }
 
 hr{
-	background-color: #000000;
+	background-color: #ABB2BF;
 	border: none;
-	border-top: 2px double #000;
+	border-top: 4px double #ABB2BF;
+}
+
+a:visited {
+  color: #C678DD;
+}
+
+a:link {
+  color: #98C379;
 }
 
 li{
 	list-style-type: "> ";
+	color: #61AFEF;
 }
