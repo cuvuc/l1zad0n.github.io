@@ -13,17 +13,17 @@ h1{
 }
 
 h2{
-	color: #666666;
+	color: #969CA7;
 }
 
 h3{
-	color: #444444;
+	color: #696E76;
 }
 
 hr{
-	background-color: #ABB2BF;
+	background-color: #50545A;
 	border: none;
-	border-top: 5px double #ABB2BF;
+	border-top: 5px double #50545A;
 }
 
 img {
@@ -33,6 +33,11 @@ img {
 	height: 33%;
 
 }
+
+img:hover {
+	border: 5px solid #61AFEF;
+}
+
 
 section {
 	display: flex;
@@ -49,7 +54,8 @@ a:link {
 }
 
 a:hover {
-	text-decoration: none;
+  color: #61AFEF;
+  text-decoration: none;
 }
 
 
