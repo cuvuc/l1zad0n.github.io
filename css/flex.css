@@ -9,7 +9,7 @@ body {
 section {
 	display: flex;
 	flex-wrap: wrap; /* prevents child elements from breaking out of container */ 
-	flex-direction: row; /* sets flex layout (default = row) */
+	flex-direction: row-reverse; /* sets flex layout (default = row) */
 }
 
 header {
@@ -25,7 +25,7 @@ h1 {
 }
 
 article {
-	flex: 200px;
+	flex: 200px; /* each article will be at least 200px wide */
         padding: 10px;
         margin: 10px;
         background: aqua;
