@@ -1,0 +1,32 @@
+html {
+        font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap; /* prevents child elements from breaking out of container */ 
+	flex-direction: row; /* sets flex layout (default = row) */
+}
+
+header {
+	background: purple;
+        height: 100px;
+}
+
+h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+}
+
+article {
+	flex: 200px;
+        padding: 10px;
+        margin: 10px;
+        background: aqua;
+}
