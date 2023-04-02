@@ -1,15 +1,19 @@
-html {
-        font-family: sans-serif;
+@font-face {
+	font-family: "cuvuc";
+	src: url("cuvuc.ttf");
 }
 
 body {
+	font-family: "cuvuc";
+	background-color: #1f2329;
 	margin: 0;
 }
 
 section {
 	display: flex;
-	flex-wrap: wrap; /* prevents child elements from breaking out of container */ 
-	flex-direction: row-reverse; /* sets flex layout (default = row) */
+	/* flex-wrap: wrap;               prevents child elements from breaking out of container */ 
+	/* flex-direction: row-reverse;   sets flex layout (default = row) */
+	flex-flow: row wrap; /* shorthand for flex-direction + flex-wrap */
 }
 
 header {
@@ -28,5 +32,5 @@ article {
 	flex: 200px; /* each article will be at least 200px wide */
         padding: 10px;
         margin: 10px;
-        background: aqua;
+        background: #61afef;
 }
