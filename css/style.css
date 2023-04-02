@@ -23,7 +23,7 @@ h3{
 hr{
 	background-color: #50545A;
 	border: none;
-	border-top: 5px double #50545A;
+	border-top: 3px double #50545A;
 }
 
 img {
@@ -41,7 +41,9 @@ img:hover {
 
 section {
 	display: flex;
+	flex-wrap: wrap;
 }
+
 
 a:visited {
   color: #C678DD;
