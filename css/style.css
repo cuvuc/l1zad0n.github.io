@@ -13,22 +13,45 @@ h1{
 }
 
 h2{
-	color: #98C379;
+	color: #666666;
+}
+
+h3{
+	color: #444444;
 }
 
 hr{
 	background-color: #ABB2BF;
 	border: none;
-	border-top: 4px double #ABB2BF;
+	border-top: 5px double #ABB2BF;
+}
+
+img {
+	border: 5px solid #666666;
+	margin: 5px 5px 5px 5px;
+	width: 33%;
+	height: 33%;
+
+}
+
+section {
+	display: flex;
 }
 
 a:visited {
   color: #C678DD;
+  text-decoration: none;
 }
 
 a:link {
   color: #98C379;
+  text-decoration: none;
 }
+
+a:hover {
+	text-decoration: none;
+}
+
 
 li{
 	list-style-type: "> ";
