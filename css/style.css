@@ -25,6 +25,7 @@ body{
 }
 
 h1{
+	line-height: 55px;
 	color: #D19A66;
 }
 
@@ -44,7 +45,7 @@ hr{
 
 img {
 	border: 5px solid #666666;
-	margin: 5px 5px 5px 5px;
+	margin: 5px;
 	width: 33%;
 	height: 33%;
 
