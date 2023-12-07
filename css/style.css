@@ -21,12 +21,12 @@
 body{
 	font-family: "cuvuc";
 	font-size: 20px;
-	background-color: #1F2329;
+	background-color: #141414;
 }
 
 h1{
 	line-height: 55px;
-	color: #D19A66;
+	color: #3C98AF;
 }
 
 h2{
@@ -52,7 +52,7 @@ img {
 }
 
 img:hover {
-	border: 5px solid #61AFEF;
+	border: 5px solid #57AFC5;
 }
 
 
@@ -63,7 +63,7 @@ section {
 
 
 a:visited {
-  color: #C678DD;
+  color: #3C6EAF;
   text-decoration: none;
 }
 
@@ -73,12 +73,13 @@ a:link {
 }
 
 a:hover {
-  color: #61AFEF;
+  color: #3CAFAB;
   text-decoration: none;
 }
 
 
 li{
 	list-style-type: "> ";
-	color: #61AFEF;
+	color: #3CAFAB;
 }
+
