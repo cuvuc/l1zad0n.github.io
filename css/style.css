@@ -12,6 +12,30 @@
 }
 */
 
+/* Current color palette (from .Xresources) */ 
+/*
+	*background: #1a1b26
+	*foreground: #c0caf5
+
+	*color0: #15161e
+	*color1: #f7768e
+	*color2: #9ece6a
+	*color3: #e0af68
+	*color4: #7aa2f7
+	*color5: #bb9af7
+	*color6: #7dcfff
+	*color7: #a9b1d6
+
+	*color8: #414868
+	*color9: #f7768e
+	*color10: #9ece6a
+	*color11: #e0af68
+	*color12: #7aa2f7
+	*color13: #bb9af7
+	*color14: #7dcfff
+	*color15: #c0caf5
+*/ 
+
 /* My Font */
 @font-face {
 	font-family: "cuvuc";
@@ -20,13 +44,15 @@
 
 body{
 	font-family: "cuvuc";
+	-webkit-font-smoothing: antialiased;
 	font-size: 20px;
 	background-color: #141414;
 }
 
 h1{
-	line-height: 55px;
-	color: #3C98AF;
+	font-size: 2em;
+	line-height: 50px;
+	color: #7dcfff;
 }
 
 h2{
@@ -38,13 +64,13 @@ h3{
 }
 
 hr{
-	background-color: #50545A;
+	background-color: #414868;
 	border: none;
-	border-top: 3px double #50545A;
+	border-top: 3px double #414868;
 }
 
 img {
-	border: 5px solid #666666;
+	border: 5px solid #414868;
 	margin: 5px 0px 5px 5px;
 	width: 33%;
 	height: 33%;
@@ -52,7 +78,7 @@ img {
 }
 
 img:hover {
-	border: 5px solid #57AFC5;
+	border: 5px solid #178ACD;
 }
 
 
@@ -63,23 +89,27 @@ section {
 
 
 a:visited {
-  color: #3C6EAF;
+  color: #9ece6a;
   text-decoration: none;
 }
 
 a:link {
-  color: #98C379;
+  color: #9ece6a;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3CAFAB;
+  color: #e0af68;
   text-decoration: none;
 }
 
 
 li{
 	list-style-type: "> ";
-	color: #3CAFAB;
+	color: #bb9af7;
 }
 
+audio {
+	display:block;
+	margin: 0;
+}
