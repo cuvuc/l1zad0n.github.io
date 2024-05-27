@@ -56,17 +56,19 @@ h1{
 }
 
 h2{
+	font-size: 1.5em;
 	color: #969CA7;
 }
 
 h3{
+	font-size: 1em;
 	color: #696E76;
 }
 
 hr{
 	background-color: #414868;
 	border: none;
-	border-top: 3px double #414868;
+	border-top: 5px double #414868;
 }
 
 img {
@@ -78,7 +80,7 @@ img {
 }
 
 img:hover {
-	border: 5px solid #178ACD;
+	border: 5px solid #f7768e;
 }
 
 
@@ -113,3 +115,42 @@ audio {
 	display:block;
 	margin: 0;
 }
+
+.btn {
+	border: none;
+	border-radius: 5px;
+	padding: 12px 20px;
+	font-size: 16px;
+	background-color: #414868;
+	cursor: pointer;
+	color: white;
+	position: relative;
+}
+
+.ribbon {
+	width: 60px;
+	font-size: 14px;
+	padding: 4px;
+	right: -25px;
+	top: -12px;
+	text-align: center;
+	border-radius: 25px;
+	transform: rotate(20deg);
+	background-color: #ff9800;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
